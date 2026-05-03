@@ -34,11 +34,9 @@ yarn-error.log*
 .AppleDouble
 .LSOverride
 
-# Model cache
+# Model cache (ignore generated cache, NOT trained models)
 backend/cache/
-*.pth
-*.pkl
-*.h5
+# Note: trained models in backend/models/ are tracked
 
 # Database
 *.db
